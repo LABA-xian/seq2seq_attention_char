@@ -3,6 +3,7 @@
 利用seq2seq attention架構訓練
 
 使用方式：
+
     test = seq2seq_Attention_all('P3_big_BN.h5', 'QA_all_char.txt') #參數說明第一個參數為儲存權重黨名稱，第二個參數為輸入txt檔
     test.train() #訓練模型
 
